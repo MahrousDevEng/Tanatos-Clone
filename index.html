@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required Styles -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tanatos-Studio-Template</title>
+  </head>
+  <body>
+    <!-- Start of Header -->
+    <header class="position-relative">
+      <div
+        class="
+          container
+          position-relative
+          d-flex
+          flex-column
+          justify-between
+          h-100
+        "
+      >
+        <nav class="navbar row">
+          <a href="./index.html" class="navbar-brand">
+            <img src="./images/Logo.png" alt="Logo" width="158" />
+          </a>
+          <button
+            class="navbar-toggler row popup-button"
+            role="button"
+            data-toggle="menu-open"
+            data-target="#menu-box"
+          >
+            Menu
+            <div class="bars position-relative">
+              <span class="smooth"></span>
+              <span class="smooth"></span>
+              <span class="smooth"></span>
+            </div>
+          </button>
+          <article
+            class="menu-box popup text-center"
+            id="menu-box"
+            data-close=".navbar-toggler"
+          >
+            <ul class="popup-child mx-auto position-relative position-y-center">
+              <li class="text-center">
+                <a href="#" class="text-upper smooth">home</a>
+              </li>
+              <li class="text-center">
+                <a href="#" class="text-upper smooth">about us</a>
+              </li>
+              <li class="text-center">
+                <a href="#" class="text-upper smooth">services</a>
+              </li>
+              <li class="text-center">
+                <a href="#" class="text-upper smooth">our works</a>
+              </li>
+              <li class="text-center">
+                <a href="#" class="text-upper smooth">contact</a>
+              </li>
+              <li class="divider mx-auto"></li>
+              <li class="social-media">
+                <ul>
+                  <li>
+                    <a href="#" class="facebook rounded-circle smooth"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="twitter rounded-circle smooth"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="google-plus rounded-circle smooth"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="dribbble rounded-circle smooth"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="behance rounded-circle smooth"></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+        </nav>
+        <article class="slider text-center position-relative">
+          <h1 class="text-upper">we design <span>things</span></h1>
+          <p class="mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+          <section class="utility">
+            <button
+              class="btn popup-button rounded-10 text-upper smooth"
+              role="button"
+              data-target="#hireUs"
+            >
+              hire us
+            </button>
+            <button
+              class="btn popup-button rounded-10 text-upper smooth"
+              role="button"
+            >
+              our works
+            </button>
+          </section>
+        </article>
+        <button
+          class="down rounded-circle mx-auto"
+          data-target="#services"
+        ></button>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Start of Hire Us -->
+    <article class="hire-us popup" id="hireUs" data-close=".close">
+      <section class="popup-child position-relative position-center rounded-5">
+        <button
+          role="button"
+          class="close rounded-circle"
+          data-target="#hireUs"
+        >
+          x
+        </button>
+        <h2 class="heading text-center text-upper">hire <span>us</span></h2>
+        <p class="text-center mx-auto">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum perspiciatis unde omnis
+          iste natus error sit voluptatem
+        </p>
+        <form action="" class="d-flex flex-column">
+          <input
+            class="rounded-10 smooth"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+          />
+          <input
+            class="rounded-10 smooth"
+            type="text"
+            name="subject"
+            placeholder="Subject"
+          />
+          <textarea
+            class="rounded-10 smooth"
+            name="message"
+            placeholder="Your Message"
+          ></textarea>
+          <a
+            class="btn text-center text-upper rounded-10 smooth"
+            href="#"
+            role="button"
+            type="submit"
+            >send message</a
+          >
+        </form>
+      </section>
+    </article>
+    <!-- End of Hire Us -->
+
+    <!-- Start of Services -->
+    <article class="services" id="services">
+      <div class="container">
+        <section class="services-box">
+          <div class="service text-center">
+            <figure
+              class="rounded-circle d-flex align-center justify-center mx-auto"
+            >
+              <img src="./images/img-services-01.png" alt="services-01" />
+            </figure>
+            <h3 class="text-upper">print design</h3>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="service text-center">
+            <figure
+              class="rounded-circle d-flex align-center justify-center mx-auto"
+            >
+              <img src="./images/img-services-02.png" alt="services-02" />
+            </figure>
+            <h3 class="text-upper">web design</h3>
+            <p>
+              Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam quis nostrud exercitation.
+            </p>
+          </div>
+          <div class="service text-center">
+            <figure
+              class="rounded-circle d-flex align-center justify-center mx-auto"
+            >
+              <img src="./images/img-services-03.png" alt="services-03" />
+            </figure>
+            <h3 class="text-upper">app design</h3>
+            <p>
+              Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure.
+            </p>
+          </div>
+          <div class="service text-center">
+            <figure
+              class="rounded-circle d-flex align-center justify-center mx-auto"
+            >
+              <img src="./images/img-services-04.png" alt="services-04" />
+            </figure>
+            <h3 class="text-upper">logo design</h3>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+        </section>
+      </div>
+    </article>
+    <!-- End of Services -->
+
+    <!-- Start of Newsletter -->
+    <article class="newsletter position-relative">
+      <div class="container position-relative">
+        <form action="" class="d-flex flex-wrap justify-center align-center">
+          <input
+            type="email"
+            name="email"
+            class="smooth rounded-10"
+            placeholder="Enter Your email adress for newsletter"
+          />
+          <input
+            type="submit"
+            value="subscribe"
+            class="btn text-center text-upper smooth rounded-10"
+          />
+        </form>
+      </div>
+    </article>
+    <!-- End of Newsletter -->
+
+    <!-- Start of Our-Work -->
+    <article class="our-work">
+      <div class="container text-center">
+        <h2 class="heading text-upper">our <span>works</span></h2>
+        <p class="mx-auto">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in
+          reprehenderit in voluptate velit esse.
+        </p>
+        <section class="work-box justify-center">
+          <figure class="work position-relative rounded-10">
+            <img
+              src="./images/img-portfolio-01.jpg"
+              alt="portfolio-01"
+              class="rounded-10"
+            />
+            <div
+              class="
+                overlay
+                text-center
+                d-flex
+                flex-column
+                justify-center
+                align-center
+                smooth
+                rounded-10
+              "
+            >
+              <h4 class="text-upper">abazoo website</h4>
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="btn text-center text-upper smooth rounded-10"
+                >show project</a
+              >
+            </div>
+          </figure>
+          <figure class="work position-relative rounded-10">
+            <img
+              src="./images/img-portfolio-02.jpg"
+              alt="portfolio-02"
+              class="rounded-10"
+            />
+            <div
+              class="
+                overlay
+                text-center
+                d-flex
+                flex-column
+                justify-center
+                align-center
+                smooth
+                rounded-10
+              "
+            >
+              <h4 class="text-upper">abazoo website</h4>
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="btn text-center text-upper smooth rounded-10"
+                >show project</a
+              >
+            </div>
+          </figure>
+          <figure class="work position-relative rounded-10">
+            <img
+              src="./images/img-portfolio-03.jpg"
+              alt="portfolio-03"
+              class="rounded-10"
+            />
+            <div
+              class="
+                overlay
+                text-center
+                d-flex
+                flex-column
+                justify-center
+                align-center
+                smooth
+                rounded-10
+              "
+            >
+              <h4 class="text-upper">abazoo website</h4>
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="btn text-center text-upper smooth rounded-10"
+                >show project</a
+              >
+            </div>
+          </figure>
+          <figure class="work position-relative rounded-10">
+            <img
+              src="./images/img-portfolio-04.jpg"
+              alt="portfolio-04"
+              class="rounded-10"
+            />
+            <div
+              class="
+                overlay
+                text-center
+                d-flex
+                flex-column
+                justify-center
+                align-center
+                smooth
+                rounded-10
+              "
+            >
+              <h4 class="text-upper">abazoo website</h4>
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="btn text-center text-upper smooth rounded-10"
+                >show project</a
+              >
+            </div>
+          </figure>
+          <figure class="work position-relative rounded-10">
+            <img
+              src="./images/img-portfolio-05.jpg"
+              alt="portfolio-05"
+              class="rounded-10"
+            />
+            <div
+              class="
+                overlay
+                text-center
+                d-flex
+                flex-column
+                justify-center
+                align-center
+                smooth
+                rounded-10
+              "
+            >
+              <h4 class="text-upper">abazoo website</h4>
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="btn text-center text-upper smooth rounded-10"
+                >show project</a
+              >
+            </div>
+          </figure>
+          <figure class="work position-relative rounded-10">
+            <img
+              src="./images/img-portfolio-06.jpg"
+              alt="portfolio-06"
+              class="rounded-10"
+            />
+            <div
+              class="
+                overlay
+                text-center
+                d-flex
+                flex-column
+                justify-center
+                align-center
+                smooth
+                rounded-10
+              "
+            >
+              <h4 class="text-upper">abazoo website</h4>
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="btn text-center text-upper smooth rounded-10"
+                >show project</a
+              >
+            </div>
+          </figure>
+        </section>
+        <a
+          href="#"
+          role="button"
+          class="btn more smooth rounded-10 text-center text-upper mx-auto"
+          >show more</a
+        >
+      </div>
+    </article>
+    <!-- End of Our-Work -->
+
+    <!-- Start of Testimonials -->
+    <article class="testimonials position-relative">
+      <div class="container position-relative">
+        <section class="slider">
+          <div class="slider-arrows position-y-center d-flex justify-between">
+            <img
+              src="./images/001__arrow_left.png"
+              alt="Left"
+              class="prev smooth"
+            />
+            <img
+              src="./images/001__arrow_right.png"
+              alt="Right"
+              class="next smooth"
+            />
+          </div>
+          <div class="slider-info text-center">
+            <div class="slide active">
+              <img
+                src="./images/img-person-01.jpg"
+                alt="member-1"
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="mx-auto">
+                These guys are incredible! I get my project in 10 days and it
+                was awesome! Very good service! Highly recommended!
+              </p>
+              <span>John Smith</span>
+            </div>
+            <div class="slide">
+              <img
+                src="./images/img-person-02.jpg"
+                alt="member-2"
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="mx-auto">
+                These guys are incredible! I get my project in 10 days and it
+                was awesome! Very good service! Highly recommended!
+              </p>
+              <span>Hose Cuervo</span>
+            </div>
+            <div class="slide">
+              <img
+                src="./images/img-person-01.jpg"
+                alt="member-1"
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="mx-auto">
+                These guys are incredible! I get my project in 10 days and it
+                was awesome! Very good service! Highly recommended!
+              </p>
+              <span>John Smith</span>
+            </div>
+            <div class="slide">
+              <img
+                src="./images/img-person-02.jpg"
+                alt="member-2"
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="mx-auto">
+                These guys are incredible! I get my project in 10 days and it
+                was awesome! Very good service! Highly recommended!
+              </p>
+              <span>Hose Cuervo</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+    <!-- End of Testimonials -->
+
+    <!-- Start of Our-Team -->
+    <article class="our-team">
+      <div class="container text-center">
+        <h2 class="heading text-upper">our <span>team</span></h2>
+        <p class="mx-auto">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto.
+        </p>
+        <section class="team-slider">
+          <div class="team-box d-flex justify-between mx-auto">
+            <div class="team-member text-center smooth" id="member1">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">catherina gail</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut.
+              </p>
+            </div>
+            <div class="team-member text-center smooth" id="member2">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">harvey rube</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut.
+              </p>
+            </div>
+            <div class="team-member text-center smooth" id="member3">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">janet pris</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit.
+              </p>
+            </div>
+            <div class="team-member text-center smooth">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">kevin ward</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat.
+              </p>
+            </div>
+            <div class="team-member text-center smooth">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">catherina gail</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut.
+              </p>
+            </div>
+            <div class="team-member text-center smooth">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">harvey rube</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut.
+              </p>
+            </div>
+            <div class="team-member text-center smooth">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">janet pris</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit.
+              </p>
+            </div>
+            <div class="team-member text-center smooth">
+              <div class="image-wraper d-flex">
+                <a
+                  href="#"
+                  class="image smooth mx-auto rounded-10 position-relative"
+                ></a>
+              </div>
+              <h6 class="text-upper smooth">janet pris</h6>
+              <ul class="social">
+                <li>
+                  <a href="#" class="facebook rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter rounded-circle smooth"></a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus rounded-circle smooth"></a>
+                </li>
+              </ul>
+              <p class="smooth mx-auto">
+                Commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit.
+              </p>
+            </div>
+          </div>
+          <ul class="team-navigation d-flex justify-center">
+            <li class="smooth rounded-circle active"></li>
+            <li class="smooth rounded-circle" data-target="#member1"></li>
+            <li class="smooth rounded-circle" data-target="#member2"></li>
+            <li class="smooth rounded-circle" data-target="#member3"></li>
+          </ul>
+        </section>
+      </div>
+    </article>
+    <!-- End of Our-Team -->
+
+    <!-- Start of Contact -->
+    <article class="contact position-relative">
+      <div class="container position-relative">
+        <h2 class="heading text-upper text-center">say <span>hello</span></h2>
+        <p class="mx-auto text-center">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum perspiciatis unde omnis
+          iste natus error sit voluptatem.
+        </p>
+        <form action="" class="d-flex flex-wrap">
+          <input
+            type="email"
+            name="email"
+            class="smooth rounded-10"
+            placeholder="Your Email"
+          />
+          <input
+            type="text"
+            name="subject"
+            class="smooth rounded-10"
+            placeholder="Subject"
+          />
+          <textarea
+            name="message"
+            class="smooth rounded-10"
+            placeholder="Your Message"
+          ></textarea>
+          <a
+            href="#"
+            role="button"
+            type="submit"
+            class="btn smooth rounded-10 text-center text-upper"
+            >hire us</a
+          >
+          <ul class="contact-socials mx-auto">
+            <li>
+              <a href="#" class="facebook smooth rounded-circle"></a>
+            </li>
+            <li>
+              <a href="#" class="twitter smooth rounded-circle"></a>
+            </li>
+            <li>
+              <a href="#" class="google-plus smooth rounded-circle"></a>
+            </li>
+            <li>
+              <a href="#" class="dribbble smooth rounded-circle"></a>
+            </li>
+            <li>
+              <a href="#" class="behance smooth rounded-circle"></a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </article>
+    <!-- End of Contact -->
+
+    <!-- Start of Footer -->
+    <footer>
+      <div class="container d-flex justify-between flex-wrap">
+        <p class="text-upper">&copy; 2015 copyright design studio</p>
+        <p class="text-upper d-flex align-center">
+          designed by
+          <a href="https://symu.co/" target="_blank"></a>
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Required Scripts -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
